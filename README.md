@@ -73,7 +73,7 @@ You can also implement same in Kotlin.
 Creating PayData for payment and process.
 
 
-#### Hosted Payment
+#### WebView Payment
 ```
                 PayData payData = new PayData();
                 payData.setChannel(EnvBase.PayChannel.WEBVIEW);
