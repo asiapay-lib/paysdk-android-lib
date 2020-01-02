@@ -142,6 +142,26 @@ Creating PayData for payment and process.
 
 ```
 
+#### Payment via WeChat
+```
+                PayData payData = new PayData();
+                payData.setChannel(EnvBase.PayChannel.DIRECT);
+                payData.setEnvType(EnvBase.EnvType.SANDBOX);
+                payData.setAmount("10");
+                payData.setPayGate(EnvBase.PayGate.PAYDOLLAR);
+                payData.setCurrCode(EnvBase.Currency.HKD);
+                payData.setPayType(EnvBase.PayType.NORMAL_PAYMENT);
+                payData.setOrderRef("abcde12345");
+                payData.setPayMethod("WECHATPAY");
+                payData.setLang(EnvBase.Language.ENGLISH);
+                payData.setMerchantId("1");
+                payData.setRemark(" ");
+                paySDK.setRequestData(payData);
+
+                paySDK.process();
+
+```
+
 ### Payment response
 
 ```
