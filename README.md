@@ -165,15 +165,19 @@ Creating PayData for payment and process.
 ### Payment response
 
 ```
-                paySDK.responseHandler(object : PaymentResponse() {
-                    override fun getResponse(payResult: PayResult) {
-                        Toast.makeText(applicationContext, payResult.errMsg, Toast.LENGTH_SHORT).show()
+               paySDK.responseHandler(new PaymentResponse() {
+                    @Override
+                    public void getResponse(PayResult payResult) {
+
+                        Toast.makeText(AuthActivity.this, payResult.getErrMsg(), Toast.LENGTH_SHORT).show();
                     }
 
-                    override fun onError(data: Data) {
-                        Toast.makeText(baseContext, data.error, Toast.LENGTH_SHORT).show()
+                    @Override
+                    public void onError(Data data) {
+
+                        Toast.makeText(AuthActivity.this,data.getError(),Toast.LENGTH_SHORT).show();
                     }
-                })
+                });
 ```
 For detailed description kindly follow [PayDollar Guide](http://paydollar.com/pdf/op/enpdintguide.pdf).
                 
