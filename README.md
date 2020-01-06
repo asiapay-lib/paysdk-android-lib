@@ -130,9 +130,9 @@ Creating PayData for payment and process.
                 payData.setCurrCode(EnvBase.Currency.HKD);
                 payData.setPayType(EnvBase.PayType.NORMAL_PAYMENT);
                 payData.setOrderRef("abcde12345");
-                payData.setPayMethod("ALIPAYHKAPP");
-                //payData.setPayMethod("ALIPAYCNAPP");
-                //payData.setPayMethod("ALIPAYAPP");
+                payData.setPayMethod("ALIPAYHKAPP"); // FOR ALIPAY HK
+                //payData.setPayMethod("ALIPAYCNAPP"); // FOR ALIPAY CHINA
+                //payData.setPayMethod("ALIPAYAPP"); // FOR ALIPAY GLOBAL
                 payData.setLang(EnvBase.Language.ENGLISH);
                 payData.setMerchantId("1");
                 payData.setRemark(" ");
