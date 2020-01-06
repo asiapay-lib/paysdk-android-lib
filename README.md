@@ -168,14 +168,10 @@ Creating PayData for payment and process.
                paySDK.responseHandler(new PaymentResponse() {
                     @Override
                     public void getResponse(PayResult payResult) {
-
-                        Toast.makeText(AuthActivity.this, payResult.getErrMsg(), Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
                     public void onError(Data data) {
-
-                        Toast.makeText(AuthActivity.this,data.getError(),Toast.LENGTH_SHORT).show();
                     }
                 });
 ```
