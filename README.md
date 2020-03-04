@@ -26,7 +26,7 @@
 
 Merchant need to integrate certificate. This certificate will be provided when merchant apply for the SDK service from [PayDollar Dashboard](https://www.paydollar.com/b2c2/eng/merchant/index.jsp).
 
-Add `paysdk.properties` and set value of certificate.
+Add `paysdk.properties` file in project Assests folder and set value of certificate.
 
 e.g
 sdk_rsa_publickey=GDJDFGHJHFGJHGJAQEF6H57F6JKNP489TFNKGH9874HNFDKLH98YHJVH78E67JNJVH98DFJJKDH099FDJKF
@@ -45,7 +45,22 @@ Add `paydollarsdk-release.aar` in project lib folder and add below code in grade
 
 Add below line in the dependencies to project’s gradle file
 
-```implementation(name: 'paydollarsdk-release', ext: 'aar')```
+```
+    implementation(name: 'paydollarsdk-release', ext: 'aar')
+    
+    implementation 'com.google.code.gson:gson:2.3.1'
+    implementation 'com.google.android.gms:play-services-ads:11.8.0'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.google.android.material:material:1.2.0-alpha04'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.60'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.7.3'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.7.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
+    implementation 'org.greenrobot:eventbus:3.0.0
+
+```
 
 #### Step 3
 
@@ -86,7 +101,7 @@ Creating PayData for payment and process.
                 payData.setPayMethod("VISA");
                 payData.setLang(EnvBase.Language.ENGLISH);
                 payData.setMerchantId("1");
-                payData.setRemark(" ");
+                payData.setRemark("additional remark");
                 paySDK.setRequestData(payData);
                 paySDK.process();
 
@@ -114,7 +129,7 @@ Creating PayData for payment and process.
                 cardDetails.setSecurityCode("123");
                 cardDetails.setCardHolder("abc abc");
                 payData.setCardDetails(cardDetails);
-                payData.setRemark("");
+                payData.setRemark("additional remark");
                 paySDK.setRequestData(payData);
                 paySDK.process();
 
@@ -135,7 +150,7 @@ Creating PayData for payment and process.
                 //payData.setPayMethod("ALIPAYAPP"); // FOR ALIPAY GLOBAL
                 payData.setLang(EnvBase.Language.ENGLISH);
                 payData.setMerchantId("1");
-                payData.setRemark(" ");
+                payData.setRemark("additional remark");
                 paySDK.setRequestData(payData);
 
                 paySDK.process();
@@ -155,7 +170,7 @@ Creating PayData for payment and process.
                 payData.setPayMethod("WECHATPAY");
                 payData.setLang(EnvBase.Language.ENGLISH);
                 payData.setMerchantId("1");
-                payData.setRemark(" ");
+                payData.setRemark("additional remark");
                 paySDK.setRequestData(payData);
 
                 paySDK.process();
