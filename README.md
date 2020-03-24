@@ -58,7 +58,7 @@ Add below line in the dependencies to project’s gradle file
     implementation 'com.fasterxml.jackson.core:jackson-core:2.7.3'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.7.3'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
-    implementation 'org.greenrobot:eventbus:3.0.0
+    implementation 'org.greenrobot:eventbus:3.0.0'
 
 ```
 
