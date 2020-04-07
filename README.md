@@ -106,7 +106,6 @@ Creating PayData for payment and process.
                 paySDK.process();
 
 ```
-![image](https://user-images.githubusercontent.com/57220911/78635133-26046700-78c3-11ea-83cb-b6bad3511485.png) ![image](https://user-images.githubusercontent.com/57220911/78635172-39173700-78c3-11ea-86e2-75c870031954.png)
 
 #### Direct Payment
 ```
@@ -135,7 +134,6 @@ Creating PayData for payment and process.
                 paySDK.process();
 
 ```
-![image](https://user-images.githubusercontent.com/57220911/78635357-ac20ad80-78c3-11ea-9d3d-9a77e83e5031.png)  ![image](https://user-images.githubusercontent.com/57220911/78635373-b3e05200-78c3-11ea-8a0c-68b4ba0fb404.png)
 
 
 #### Payment via AliPay
