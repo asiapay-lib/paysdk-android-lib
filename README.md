@@ -46,7 +46,7 @@ Add `paydollarsdk-release.aar` in project lib folder and add below code in grade
 Add below line in the dependencies to project’s gradle file
 
 ```
-    implementation(name: 'PaySDK-2.2.5', ext: 'aar')
+    implementation(name: 'PaySDK-2.2.6', ext: 'aar')
     
     implementation 'com.google.code.gson:gson:2.3.1'
     implementation 'com.google.android.gms:play-services-ads:11.8.0'
