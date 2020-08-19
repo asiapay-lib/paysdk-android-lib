@@ -193,8 +193,6 @@ Creating PayData for payment and process.
 ```
 For detailed parameters description kindly follow [PayDollar Guide](http://paydollar.com/pdf/op/enpdintguide.pdf).
 
-For Complete Integration guide use [PaySdk_ANdroid_IntegrationGuide.docx](https://github.com/asiapay-lib/paysdk-android-lib/files/4444819/PaySdk_ANdroid_IntegrationGuide.docx)
-
 For PaySDK Demo App follow https://github.com/asiapay-lib/paysdk-android-demo
 
                 
