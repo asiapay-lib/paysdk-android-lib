@@ -100,7 +100,7 @@ Creating PayData for payment and process.
                 payData.setCurrCode(EnvBase.Currency.HKD);
                 payData.setPayType(EnvBase.PayType.NORMAL_PAYMENT);
                 payData.setOrderRef("abcde12345");
-                payData.setPayMethod("VISA");
+                payData.setPayMethod("CC");
                 payData.setLang(EnvBase.Language.ENGLISH);
                 payData.setMerchantId("1");
                 payData.setRemark("additional remark");
