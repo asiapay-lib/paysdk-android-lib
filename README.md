@@ -63,6 +63,7 @@ Add below line in the dependencies to project’s gradle file
     implementation 'org.greenrobot:eventbus:3.0.0'
 
 ```
+#### NOTE: To track payment location allow location permission to the application.
 
 #### Step 3
 
