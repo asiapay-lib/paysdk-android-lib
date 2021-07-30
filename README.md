@@ -48,7 +48,7 @@ Add `paydollarsdk-release.aar` in project lib folder and add below code in grade
 Add below line in the dependencies to project’s gradle file
 
 ```
-    implementation(name: 'PaySDK-2.4.4', ext: 'aar')
+    implementation(name: 'PaySDK-2.5.0', ext: 'aar')
     
     implementation 'com.google.code.gson:gson:2.3.1'
     implementation 'com.google.android.gms:play-services-ads:11.8.0'
@@ -105,6 +105,7 @@ Creating PayData for payment and process.
                 payData.setLang(EnvBase.Language.ENGLISH);
                 payData.setMerchantId("1");
                 payData.setRemark("additional remark");
+                payData.setShowCloseButton(true);//If not specified, then by default this value is set to false
                 paySDK.setRequestData(payData);
                 paySDK.process();
 
