@@ -2,6 +2,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+
+## [2.6.10] - 2022-01-20
+ 
+### Added
+
+- SamsungPay. 
+
+
 ## [2.6.09] - 2021-11-09
  
 ### Removed
