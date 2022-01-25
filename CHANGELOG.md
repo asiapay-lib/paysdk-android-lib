@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.0] - 2022-01-25
+ 
+### Changed
+
+- Changed paymentResponse.onError(Data) method to queryResponse.onError(Data) for Query. 
+
 
 ## [2.6.10] - 2022-01-20
  
