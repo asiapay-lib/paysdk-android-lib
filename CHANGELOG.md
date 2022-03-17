@@ -2,6 +2,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+
+## [2.7.1] - 2022-03-17
+ 
+### Added
+
+- Added the code to enable localstorage access for webview. 
+
+
 ## [2.7.0] - 2022-01-25
  
 ### Changed
