@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## [2.7.2] - 2022-06-10
+ 
+### Added
+
+- Performance fine tune. 
+
+
 ## [2.7.1] - 2022-03-17
  
 ### Added
