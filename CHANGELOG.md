@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.3] - 2022-06-13
+ 
+### Added
+
+- Performance fine tune. 
+
 
 ## [2.7.2] - 2022-06-10
  
