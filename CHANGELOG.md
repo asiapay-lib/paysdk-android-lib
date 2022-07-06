@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.4] - 2022-07-06
+ 
+### Added
+
+- Allow to set card network on GooglePay. 
+
 ## [2.7.3] - 2022-06-13
  
 ### Added
