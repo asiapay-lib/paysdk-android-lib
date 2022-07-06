@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
  
 ### Added
 
-- Allow to set card network on GooglePay. 
+- Allow to set card network on GooglePay and disable web view refresh if device orientation is changed. 
 
 ## [2.7.3] - 2022-06-13
  
