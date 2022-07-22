@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.32] - 2022-07-22
+ 
+### Added
+
+- Revised Permission.
+
 ## [2.7.31] - 2022-07-22
  
 ### Added
