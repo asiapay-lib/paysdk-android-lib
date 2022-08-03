@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.50] - 2022-08-03
+ 
+### Added
+
+- Support for BoCPay.
+
 ## [2.7.50] - 2022-07-22
  
 ### Added
