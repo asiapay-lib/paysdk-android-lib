@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.63] - 2022-09-08
+ 
+### Updated
+
+- Performance fine tune on web view for instalment.
+
 ## [2.7.62] - 2022-08-09
  
 ### Updated
