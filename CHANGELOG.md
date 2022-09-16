@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.64] - 2022-09-16
+ 
+### Updated
+
+- 3DS flow updated.
+
 ## [2.7.63] - 2022-09-08
  
 ### Updated
