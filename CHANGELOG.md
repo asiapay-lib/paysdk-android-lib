@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.65] - 2022-09-27
+ 
+### Updated
+
+- Add error code for SDK and TnC handler for VISA instalment.
+
 ## [2.7.64] - 2022-09-16
  
 ### Updated

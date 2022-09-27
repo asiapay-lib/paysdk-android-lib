@@ -48,7 +48,7 @@ Add `paydollarsdk-release.aar` in project lib folder and add below code in grade
 Add below line in the dependencies to project’s gradle file
 
 ```
-    implementation(name: 'PaySDK-2.7.64', ext: 'aar')
+    implementation(name: 'PaySDK-2.7.65', ext: 'aar')
     
     implementation 'com.google.code.gson:gson:2.3.1'
     implementation 'com.google.android.gms:play-services-ads:11.8.0'
@@ -153,6 +153,14 @@ Creating PayData for payment and process.
                     }
                 });
 ```
+
+## Error Code
+
+| successCode | prc | Error Code | Error Type | Error Message |
+| :----------:| :--:| :--------: | :--------: | :-----------: |
+| 1 | -10 | EI01 | Invalid Payment Method | Invalid Payment Method Exception |
+| 1 | -10 | ET01 | System Timeout | Timeout Exception |
+
 For detailed parameters description kindly follow [PayDollar Guide](http://paydollar.com/pdf/op/enpdintguide.pdf).
 
 For PaySDK Demo App follow https://github.com/asiapay-lib/paysdk-android-demo
