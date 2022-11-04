@@ -2,6 +2,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.66] - 2022-11-04
+ 
+### Updated
+
+- Performance fine tune on integration with BoCPay.
+
 ## [2.7.65] - 2022-09-27
  
 ### Updated
