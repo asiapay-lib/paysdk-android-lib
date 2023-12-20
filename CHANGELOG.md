@@ -2,6 +2,21 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+
+## [2.7.68] - 2023-12-08
+ 
+### Updated
+
+- UnionPay auto closing webview issues resolved.
+
+
+## [2.7.67] - 2023-12-01
+ 
+### Updated
+
+- Performance fine tune on integration with GPay.
+
+
 ## [2.7.66] - 2022-11-04
  
 ### Updated
