@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 
+## [2.7.69] - 2024-01-29
+
+### Updated
+Gpay and UnionPay issue fixed.
+
+
 ## [2.7.68] - 2023-12-08
  
 ### Updated
