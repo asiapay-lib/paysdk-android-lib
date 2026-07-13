@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 
 
+## \[2.7.71] - 2026-07-13
+
+### Updated
+
+alipaysdk-15.8.42.260429154144 for Stable AlipayHK APP invocation,Seamless native payment experience and Reduced H5 fallback rate also improved conversion rate
+
+
+
+
+
 ## \[2.7.70] - 2026-01-27
 
 ### Added
@@ -179,3 +189,4 @@ Gpay and UnionPay issue fixed.
 ### Changed
 
 * Bypass HTML error under WebView.
+
