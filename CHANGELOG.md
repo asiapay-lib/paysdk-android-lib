@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+## \[2.7.72] - 2026-08-01
+
+### Updated
+
+* functional update on digital wallet
+
+
+
 ## \[2.7.71] - 2026-07-13
 
 ### Updated
