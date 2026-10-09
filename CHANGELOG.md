@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## \[2.7.73] - 2026-09-10
+
+### Updated
+
+* functional update on AliPay and AlipayHK.
 
 
 ## \[2.7.72] - 2026-08-01
